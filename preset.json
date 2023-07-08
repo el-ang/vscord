@@ -1,0 +1,125 @@
+{
+    "app": {
+        "name": "Custom",
+        "id": "1124777172461162516"
+    },
+    "status": {
+        "problems": {
+            "text": "{problems_count} Stupidity"
+        },
+        "idle":{
+            "resetElapsedTime": true
+        },
+        "details": {"text": {
+            "idle": "@ dream.mp4",
+            "noWorkSpaceText": "@ computer",
+            "notInFile": "@ {workspace}",
+            "viewing": "@ {workspace} - {file_name}",
+            "editing": "@ {workspace} - {file_name}",
+            "debugging": "@ {workspace} - {file_name}"
+        }},
+        "state": {"text": {
+            "idle": "*turu ~ a mimir*",
+            "noWorkSpaceText": "no workspace??",
+            "notInFile": "*technical difficulties*",
+            "viewing": "*watching her*",
+            "editing": "Coding - Ln {current_line} of {line_count}, Col {current_column}",
+            "debugging": "Debugging - {problems}"
+        }},
+        "image": {
+            "large": {
+                "idle":{
+                    "text": "✨sashimi✨",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/redbag.png"
+                },
+                "notInFile":{
+                    "text": "PLEASE STAND BY",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/busy-dark.png"
+                },
+                "viewing":{
+                    "text": "*lewd thought*",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/kefe.png"
+                },
+                "editing":{
+                    "text": "{LANG}⚡",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/{lang}.png"
+                },
+                "debugging":{
+                    "text": "*boop beep pew pew",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/debugging.png"
+                }
+            },
+            "small": {
+                "idle":{
+                    "text": "(- n - )💤",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/idle.png"
+                },
+                "notInFile":{
+                    "text": "🔧_(• - •')",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/vscode-notfile.png"
+                },
+                "viewing":{
+                    "text": "(• - • )",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/{lang}.png"
+                },
+                "editing":{
+                    "text": "(🔥 w 🔥 )",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/vscode-custom.png"
+                },
+                "debugging":{
+                    "text": "👾_(• w •')",
+                    "key": "https://raw.githubusercontent.com/el-ang/vscord/main/asset/vscode-custom.png"
+                }
+            }
+        },
+        "buttons": {
+            "button1": {
+                "git": {
+                    "active": {
+                        "enabled": false
+                    },
+                    "idle": {
+                        "enabled": false
+                    },
+                    "inactive": {
+                        "enabled": false
+                    }
+                },
+                "active": {
+                    "enabled": true,
+                    "label": "Showwcase",
+                    "url": "https://showwcase.com/el-ang"
+                },
+                "idle": {
+                    "enabled": true,
+                    "label": "Showwcase",
+                    "url": "https://showwcase.com/el-ang"
+                },
+                "inactive": {
+                    "enabled": true,
+                    "label": "Showwcase",
+                    "url": "https://showwcase.com/el-ang"
+                }
+            },
+            "button2": {
+                "git": {
+                    "active": {
+                        "enabled": true,
+                        "label": "Repo/Project"
+                    }
+                },
+                "active": {
+                    "enabled": true,
+                    "label": "LinkedIn",
+                    "url": "https://linkedin.com/in/el-ang"
+                },
+                "idle": {
+                    "enabled": true,
+                    "label": "🤨"
+                }
+            }
+        }
+    },
+    "file": {"size": {"round": 1}},
+    "behaviour": {"debug": true}
+}
